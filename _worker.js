@@ -2660,7 +2660,9 @@ async function 获取加密客户端问候配置(域名522) {
 // 跟之前的套娃一个思路：cfnew 自己的节点在前面带路，落地换成网友共享出来的家庭宽带。
 // 客户端会把落地节点的整条隧道塞进前置节点里走，握手走 CF 边缘，出网是住宅 IP。
 // 内核要 1.19.25 以上才认这类节点，老内核导入会报类型不认识。
-const 家宽节点源 = 解码64('aHR0cHM6Ly93d3cudnBuZ2F0ZS5uZXQvYXBpL2lwaG9uZS8=');
+// 由 GitHub Actions 发布的“检测成功 + 保留完整证书配置”清单。
+// 这样家宽链式不会再使用未经检测的 VPN Gate 原始节点。
+const 家宽节点源 = 'https://garryzh.github.io/vpngate-home-check/vpngate-filtered.csv';
 const 家宽节点类型 = 解码64('b3BlbnZwbg==');
 const 家宽前置字段 = 解码64('ZGlhbGVyLXByb3h5');
 const 家宽机房前缀 = 解码64('cHVibGljLXZwbg==');
