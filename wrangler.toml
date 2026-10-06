@@ -1,0 +1,4 @@
+name = "cfnew-home"
+main = "_worker.js"
+compatibility_date = "2026-01-20"
+account_id = "b8079d1d1a39372f59d4054b6bea9576"
