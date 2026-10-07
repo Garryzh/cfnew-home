@@ -2663,7 +2663,7 @@ async function 获取加密客户端问候配置(域名522) {
 // 由 GitHub Actions 发布的“检测成功 + 保留完整证书配置”清单。
 // 这样家宽链式不会再使用未经检测的 VPN Gate 原始节点。
 // 版本参数用于绕过 Worker/CDN 对旧 CSV 的缓存；检查器每次发布都会更新版本。
-const 家宽节点源 = 'https://garryzh.github.io/vpngate-home-check/vpngate-filtered.csv?v=67d2b3f';
+const 家宽节点源 = 'https://garryzh.github.io/vpngate-home-check/vpngate-filtered.csv?v=20261007-000125';
 const 家宽节点类型 = 解码64('b3BlbnZwbg==');
 const 家宽前置字段 = 解码64('ZGlhbGVyLXByb3h5');
 const 家宽机房前缀 = 解码64('cHVibGljLXZwbg==');
